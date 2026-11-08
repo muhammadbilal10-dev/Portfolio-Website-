@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammad Bilal - Computer Science Student and Aspiring Web Developer.">
+    <title>Muhammad Bilal | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Bilal.Dev<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="contact-link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <p class="greeting">HELLO, I'M</p>
+
+                <h1>Muhammad <span>Bilal</span></h1>
+
+                <h2>Aspiring Web Developer</h2>
+
+                <p class="hero-description">
+                    I'm a Computer Science student passionate about
+                    technology, web development, and building creative
+                    digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        Explore My Work
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Get In Touch
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="mailto:muhmmadbilal889@gmail.com">Email</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-glow">
+                    <img src="assets/profile.jpg"
+                         alt="Muhammad Bilal"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+
+                    <div class="profile-placeholder">MB</div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2 class="section-title">About <span>Me</span></h2>
+
+            <p class="section-description">
+                I'm Muhammad Bilal, a BS Computer Science student
+                interested in web development and technology.
+                I'm continuously learning new skills and developing
+                practical projects to strengthen my technical knowledge.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <p class="section-label">WHAT I WORK WITH</p>
+            <h2 class="section-title">My <span>Skills</span></h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>HTML5</h3>
+                    <p>Webpage structure and semantic markup.</p>
+                </div>
+
+                <div class="card">
+                    <h3>CSS3</h3>
+                    <p>Styling, layouts and responsive design.</p>
+                </div>
+
+                <div class="card">
+                    <h3>JavaScript</h3>
+                    <p>Learning interactive web functionality.</p>
+                </div>
+
+                <div class="card">
+                    <h3>C++</h3>
+                    <p>Programming fundamentals and problem-solving.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <p class="section-label">MY RECENT WORK</p>
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+
+            <div class="cards">
+                <div class="card project-card">
+                    <p class="project-number">PROJECT 01</p>
+                    <h3>Personal Portfolio</h3>
+                    <p>A responsive website showcasing my skills,
+                       background and projects.</p>
+                    <span class="tech">HTML · CSS · JavaScript</span>
+                </div>
+
+                <div class="card project-card">
+                    <p class="project-number">PROJECT 02</p>
+                    <h3>To-Do List App</h3>
+                    <p>A task management application with add,
+                       edit and delete functionality.</p>
+                    <span class="tech">HTML · CSS · JavaScript</span>
+                </div>
+            </div>
+            <p class="note">Projects will be linked to their live demos and GitHub repositories as they are completed.</p>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section" id="experience">
+            <p class="section-label">MY PROFESSIONAL JOURNEY</p>
+            <h2 class="section-title">Education & <span>Experience</span></h2>
+
+            <div class="card">
+                <h3>BS Computer Science</h3>
+                <p>University-level undergraduate education</p>
+                <p>Currently pursuing my degree.</p>
+            </div>
+
+            <div class="card">
+                <h3>Web Development Intern</h3>
+                <p>Arch Technologies | November – December 2026</p>
+                <p>Developing practical web development skills
+                   through assigned projects and training.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <p class="section-label">LET'S CONNECT</p>
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+
+            <p class="section-description">
+                Have an opportunity, project or collaboration in mind?
+                I'd love to hear from you.
+            </p>
+            
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=muhmmadbilal889@gmail.com"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="btn primary-btn">
+    Send Me an Email
+</a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Muhammad Bilal. All Rights Reserved.</p>
+        <p>Designed & Built with passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
